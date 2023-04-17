@@ -43,7 +43,7 @@ const UserDetail = () => {
                   </span>
                 </button>
               </div>
-          {menuController ? rightMenus[0]: rightMenus[1].userDetail}
+          {menuController ? rightMenus[2]: rightMenus[1].userDetail}
         </div>
       </div>
 </div>

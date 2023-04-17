@@ -7,6 +7,7 @@ import MessageModal from "../component/modal/messageModal";
 import NewPostModal from "../component/modal/newPostModal";
 import SignUpModal from "../component/modal/signUpModal";
 import UserMenu from "../component/rightContent/userMenu";
+import UserMenuSmaller from "../component/rightContent/userMenuSmaller";
 import FilterList from "../component/rightContent/filterList";
 import UserDetailMenu from "../component/rightContent/userDetailMenu";
 import SendBoxModal from "../component/modal/sendBoxModal";
@@ -51,7 +52,7 @@ const ScriptsContextProvider = (props) => {
     setMenuName(nameOfMenu);
   }; ////////////////////////////////////////////////////////////////
   //Right Menu Change
-  const [rightMenus] = useState([<UserMenu />, {'filterList':<FilterList />, 'userDetail':<UserDetailMenu />}])
+  const [rightMenus] = useState([<UserMenu />, {'filterList':<FilterList />, 'userDetail':<UserDetailMenu />}, <UserMenuSmaller />])
   const [menuController, setMenuController] = useState(true)
   const rightMenuChange = () => {
     setMenuController(!menuController)

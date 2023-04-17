@@ -43,16 +43,13 @@ const MessageModal = () => {
           <div className="flex space-x-4 items-center">
             <div className="h-12 w-12 rounded-full overflow-hidden">
               <img
-                src="https://bit.ly/2KfKgdy"
+                src="/images/usericon.png"
                 loading="lazy"
                 className=" w-full object-cover"
               />
             </div>
             <div className="flex flex-col">
-              <h3 className="font-semibold text-lg">Akhil Gautam</h3>
-              <p className="text-light text-gray-400">
-                akhil.gautam123@gmail.com
-              </p>
+              <h3 className="font-semibold text-lg">Send Message</h3>
             </div>
           </div>
         </div>

@@ -43,7 +43,7 @@ const UserProfileMenu = ()=>{
                   </span>
                 </button>
               </div>
-          {menuController ? rightMenus[0]: rightMenus[1].filterList}
+          {menuController ? rightMenus[2]: rightMenus[1].filterList}
         </div>
       </div>
 </div>

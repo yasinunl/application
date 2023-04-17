@@ -8,6 +8,7 @@ This is a Flask-based freelancer website that uses SQLAlchemy for the database a
 1. [Some Informations about the project](#some-informations-about-the-project)
 1. [Schemas](#schemas)
 1. [Run Setup](#run-setup)
+1. [Photos](#photos)
 ## Recommended Technologies
 - React
 - TailwindCSS
@@ -80,3 +81,107 @@ python app.py
 #freelance
 npm run start
 ```
+## Photos
+
+<details>
+<summary>Photos Of App</summary>
+
+<details>
+<summary>Root Page</summary>
+
+![Sign Up Modal](./imagesOfApp/fullModal.png)
+</details>
+<details>
+<summary>Full Page no Log In</summary>
+<details>
+<summary>Home  Page</summary>
+
+![Sign Up Modal](./imagesOfApp/fullPageWithoutLogin.png)
+</details>
+<details>
+<summary>Freelancers Page</summary>
+
+![Sign Up Modal](./imagesOfApp/fullPageWithoutLogin1.png)
+</details>
+<details>
+<summary>Jobs Page</summary>
+
+![Sign Up Modal](./imagesOfApp/fullPageWithoutLogin2.png)
+</details>
+</details>
+<details>
+<summary>Full Page after Login</summary>
+
+![Sign Up Modal](./imagesOfApp/fullPage.png)
+</details>
+<details>
+<summary>Left Content</summary>
+As you see there are two button when you click one of them you will see that
+<details>
+<summary>Freelancers</summary>
+
+![Sign Up Modal](./imagesOfApp/leftcontent.png)
+</details>
+<details>
+<summary>Jobs</summary>
+
+![Sign Up Modal](./imagesOfApp/leftcontent1.png)
+</details>
+</details>
+<details>
+<summary>Profile</summary>
+
+![Sign Up Modal](./imagesOfApp/profileDetail.png)
+</details>
+<details>
+<summary>Job Detail</summary>
+
+![Sign Up Modal](./imagesOfApp/jobDetail.png)
+</details>
+<details>
+<summary>Freelancers Profiles</summary>
+
+![Sign Up Modal](./imagesOfApp/freelancerDetail.png)
+</details>
+<details>
+<summary>Modals</summary>
+<details>
+<summary>Sign Up</summary>
+
+![Sign Up Modal](./imagesOfApp/signup.png)
+</details>
+<details>
+<summary>Log In Modal</summary>
+
+![Sign Up Modal](./imagesOfApp/login.png)
+</details>
+<details>
+<summary>Message Modal (to contact)</summary>
+
+![Sign Up Modal](./imagesOfApp/sendMessage.png)
+</details>
+<details>
+<summary>Inbox Modal</summary>
+
+![Sign Up Modal](./imagesOfApp/inboxModal.png)
+</details>
+<details>
+<summary>Sendbox Modal</summary>
+
+![Sign Up Modal](./imagesOfApp/sendbox.png)
+</details>
+<details>
+<summary>Share New Post</summary>
+
+![Sign Up Modal](./imagesOfApp/newPostModal.png)
+![Sign Up Modal](./imagesOfApp/newPostModal1.png)
+![Sign Up Modal](./imagesOfApp/newPostModal2.png)
+</details>
+</details>
+<details>
+<summary>Mobile Version</summary>
+
+![Sign Up Modal](./imagesOfApp/smallone.png)
+![Sign Up Modal](./imagesOfApp/smallone1.png)
+</details>
+</details>

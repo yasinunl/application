@@ -41,7 +41,7 @@ const YourProfileMenu = ()=>{
                   </span>
                 </button>
               </div>
-          {rightMenus[0]}
+          {rightMenus[2]}
         </div>
       </div>
 </div>

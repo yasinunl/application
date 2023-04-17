@@ -51,7 +51,7 @@ const InboxModal = () => {
           <div className="flex space-x-4 items-center">
             <div className="h-12 w-12 rounded-full overflow-hidden">
               <img
-                src={`/images/${message && message.foto !== "" ? message.foto : "batman.jpg"}`}
+                src={`${message && message.foto !== "" ? "http://127.0.0.1:5000/images/"+message.foto : "/images/usericon.png"}`}
                 loading="lazy"
                 className=" w-full object-cover"
               />

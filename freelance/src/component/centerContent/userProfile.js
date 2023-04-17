@@ -405,23 +405,6 @@ const UserProfile = ()=>{
                     href="https://github.com/mdrathik/tailwind-nuxtjs-starter-blog"
                   ></a>
                 </div>
-                <button
-                  type="button"
-                  onClick={() => {
-                    changeModal("message");
-                    openModal();
-                  }}
-                  target="_blank"
-                >
-                  <img
-                    src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png"
-                    alt="Buy Me A Coffee"
-                    style={{
-                      height: "60px",
-                      width: "217px",
-                    }}
-                  />
-                </button>
               </div>
             </div>
           </div>

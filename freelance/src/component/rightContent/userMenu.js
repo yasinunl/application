@@ -15,7 +15,7 @@ const UserMenu = () => {
   const openHideDropdown = (dropdownName) => {
     const dropdown = document.getElementById(dropdownName);
     if (dropdown.className === "hidden") dropdown.classList.remove("hidden");
-    else dropdown.className += "hidden";
+    else dropdown.classList.add("hidden");
   };
   ////////////////////////////////////////////////////////////////////////////
   // LogOut
